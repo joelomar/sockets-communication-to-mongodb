@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelomar/node-sockets-and-mongodb.git"
+  },
+  "author": "joel vazquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelomar/node-sockets-and-mongodb/issues"
+  },
+  "homepage": "https://github.com/joelomar/node-sockets-and-mongodb#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.21",
+    "socket.io": "^1.4.6"
+  }
+}
